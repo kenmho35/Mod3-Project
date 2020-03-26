@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="main.css">
+  <title>Item Donation</title>
+</head>
+<body>
+  <center>
+  <h1>Coronavirus Donations</h1>
+  <img src="https://s.marketwatch.com/public/resources/images/MW-IC342_pandem_NS_20200316105601.jpg",  style="width:428px;height:250px;"> <img src="https://i2.wp.com/www.counton2.com/wp-content/uploads/sites/7/2020/03/DONATIONS.jpg?resize=2560%2C1440&ssl=1",  style="width:428px;height:250px;"> <img src="https://wset.com/resources/media/6862ff02-c9ba-4dbe-a95f-f38bf566147d-large16x9_donatesupplies.jpg?1585074576100",  style="width:428px;height:250px;">
+  <br>
+  <br>
+  <form id="create-item">
+    <input type="text" name="image" id="image" placeholder="Image" autocomplete="off">
+    <input type="text" name="name" id="name" placeholder="item" autocomplete="off">
+    <input type="text" name="organization" id="organization"  placeholder="Organization" autocomplete="off">
+    <input type="integer" name="quantity" id="quantity"  placeholder="Quantity" autocomplete="off">
+    <input type="submit" value="Create A Donation">
+  </form>
+</center>
+<br>
+<br>
+<center>
+  <div id="item-list" class=".card">
+  </div>
+</center>
+</body>
+</html>
